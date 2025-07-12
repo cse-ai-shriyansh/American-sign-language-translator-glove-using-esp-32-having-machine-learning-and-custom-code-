@@ -1,0 +1,18 @@
+Component List:
+- ESP32 Dev Board (e.g., ESP32-WROOM-32)
+- 5x Flex Sensors
+- 1x MPU6050 (accelerometer + gyroscope)
+- 5x 10kΩ Resistors (for flex sensor voltage dividers)
+- Breadboard & Jumper Wires
+- Micro-USB Cable (ESP32 ↔ PC)
+
+Wiring Guide:
+- Flex Sensors:
+  - One end to 3.3V
+  - Other end to Analog Pin (GPIO 32, 33, 34, 35, 36)
+  - 10kΩ resistor from analog pin to GND (voltage divider)
+- MPU6050:
+  - VCC to 3.3V
+  - GND to GND
+  - SCL to GPIO 22
+  - SDA to GPIO 21 

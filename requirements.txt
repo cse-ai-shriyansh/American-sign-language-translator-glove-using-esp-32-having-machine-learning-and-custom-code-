@@ -1,0 +1,30 @@
+# ASL (American Sign Language) Project Requirements
+# Core libraries for serial communication and data processing
+pyserial==3.5
+pyttsx3==2.90
+
+# Data handling and analysis (for future ML capabilities)
+numpy==1.24.3
+pandas==2.0.3
+scikit-learn==1.3.0
+
+# Machine Learning and Deep Learning (optional - for advanced features)
+tensorflow==2.13.0
+keras==2.13.1
+
+# Data visualization (for analyzing sensor data)
+matplotlib==3.7.2
+seaborn==0.12.2
+
+# Additional utilities
+opencv-python==4.8.0.76
+pillow==10.0.0
+
+# Dataset downloading and processing
+requests==2.31.0
+gdown==4.7.1
+kaggle==1.5.16
+
+# Development and testing
+pytest==7.4.0
+jupyter==1.0.0 

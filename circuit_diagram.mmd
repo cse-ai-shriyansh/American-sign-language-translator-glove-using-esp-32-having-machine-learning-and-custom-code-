@@ -1,0 +1,38 @@
+graph TD
+  subgraph "ESP32"
+    A0["GPIO 32 (A0)"]
+    A1["GPIO 33 (A1)"]
+    A2["GPIO 34 (A2)"]
+    A3["GPIO 35 (A3)"]
+    A4["GPIO 36 (A4)"]
+    SDA["GPIO 21 (SDA)"]
+    SCL["GPIO 22 (SCL)"]
+    VCC["3.3V"]
+    GND["GND"]
+  end
+
+  FS1["Flex Sensor 1"] -- "to 3.3V" --> VCC
+  FS1 -- "to A0" --> A0
+  FS1 -- "to 10kΩ to GND" --> GND
+
+  FS2["Flex Sensor 2"] -- "to 3.3V" --> VCC
+  FS2 -- "to A1" --> A1
+  FS2 -- "to 10kΩ to GND" --> GND
+
+  FS3["Flex Sensor 3"] -- "to 3.3V" --> VCC
+  FS3 -- "to A2" --> A2
+  FS3 -- "to 10kΩ to GND" --> GND
+
+  FS4["Flex Sensor 4"] -- "to 3.3V" --> VCC
+  FS4 -- "to A3" --> A3
+  FS4 -- "to 10kΩ to GND" --> GND
+
+  FS5["Flex Sensor 5"] -- "to 3.3V" --> VCC
+  FS5 -- "to A4" --> A4
+  FS5 -- "to 10kΩ to GND" --> GND
+
+  MPU["MPU6050"]
+  MPU -- "VCC" --> VCC
+  MPU -- "GND" --> GND
+  MPU -- "SDA" --> SDA
+  MPU -- "SCL" --> SCL 
