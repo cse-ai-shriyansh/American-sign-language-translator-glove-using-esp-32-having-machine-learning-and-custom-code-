@@ -1,4 +1,4 @@
-# 🤖 ASL (American Sign Language) Recognition System
+#  ASL (American Sign Language) Recognition System
 
 A comprehensive machine learning-based ASL recognition system using flex sensors and MPU6050 IMU connected to an ESP32 microcontroller. Features advanced data collection, real-time visualization, calibration, and multiple ML/DL models for accurate gesture recognition.
 
@@ -11,7 +11,7 @@ The system processes information through 7 interconnected stages:
 Hardware → Firmware → Data Collection → Preprocessing → ML Training → Prediction → Output
 ```
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Install Dependencies
 ```bash
@@ -81,7 +81,7 @@ python pc_asl_tts.py
 - Confidence threshold filtering
 - Live sensor data processing
 
-## 🔧 Enhanced System Features
+##  Enhanced System Features
 
 ### **Advanced Data Collection System**
 - **Sensor Calibration**: Automatic calibration for accurate readings
@@ -102,7 +102,7 @@ python pc_asl_tts.py
 - **System Flowchart**: Visual representation of entire workflow
 - **Troubleshooting Section**: Common issues and solutions
 
-## 📊 Data Sources & Management
+##  Data Sources & Management
 
 ### **Available Data Sources**
 1. **Real Sensor Data**: Collected from your ESP32 glove
@@ -116,7 +116,7 @@ python pc_asl_tts.py
 - **Visualization**: Real-time and post-processing plots
 - **Statistics**: Sample counts, distributions, and quality metrics
 
-## 🤖 Machine Learning & Deep Learning
+##  Machine Learning & Deep Learning
 
 ### **Classic ML Models**
 | Model | Features | Best Use Case |
@@ -164,7 +164,7 @@ ssipmt asl/
 └── 📄 README.md                   # This file
 ```
 
-## 🎯 Supported ASL Gestures
+##  Supported ASL Gestures
 
 ### **Current Support: A-J**
 | Letter | Flex Pattern | Description |
@@ -186,7 +186,7 @@ ssipmt asl/
 - Custom words and phrases
 - Dynamic gesture recognition
 
-## 🔍 Data Analysis & Visualization
+##  Data Analysis & Visualization
 
 ### **Real-time Visualization**
 - **Flex Sensors**: Live bar charts showing finger positions
@@ -199,7 +199,7 @@ ssipmt asl/
 - **Label Distribution**: Frequency of each gesture
 - **Quality Metrics**: Data validation and statistics
 
-## 🚀 Advanced Features
+##  Advanced Features
 
 ### **Information Feeding System**
 - **Stage-by-stage guidance**: Detailed instructions for each system stage
@@ -219,7 +219,7 @@ ssipmt asl/
 - **Real-time monitoring**: Live system status and feedback
 - **Error handling**: Robust error detection and recovery
 
-## 📚 Comprehensive Documentation
+##  Comprehensive Documentation
 
 ### **Guides & Tutorials**
 - **`COMPLETE_INFORMATION_FEEDING_SUMMARY.md`**: Complete system overview
@@ -240,7 +240,7 @@ ssipmt asl/
 - **`asl_deep_learning.py`**: Deep learning implementation
 - **`pc_asl_tts.py`**: Real-time prediction with TTS
 
-## 🔧 Troubleshooting & Support
+##  Troubleshooting & Support
 
 ### **Common Issues**
 1. **Connection Problems**: Check COM port and USB connection
@@ -258,7 +258,7 @@ ssipmt asl/
 - [ ] Real-time prediction working
 - [ ] Text-to-speech output functional
 
-## 🎯 Success Metrics
+##  Success Metrics
 
 ### **System Performance**
 - **Data Quality**: >95% stable readings
@@ -274,7 +274,7 @@ ssipmt asl/
 - **ML Training**: High accuracy with good generalization
 - **Prediction**: Reliable real-time recognition
 
-## 🚀 Future Enhancements
+##  Future Enhancements
 
 1. **Expanded Gesture Set**: Add more ASL letters, numbers, and words
 2. **Advanced ML Models**: Implement CNN, LSTM, and transformer models
@@ -284,7 +284,7 @@ ssipmt asl/
 6. **Gesture Sequences**: Support for complete sentences and phrases
 7. **Accessibility Features**: Voice feedback and haptic responses
 
-## 📝 Technical Notes
+##  Technical Notes
 
 - **Sensor Calibration**: Essential for accurate readings
 - **Data Quality**: More real data improves model performance
@@ -292,7 +292,7 @@ ssipmt asl/
 - **Real-time Optimization**: Balance accuracy vs. speed
 - **Hardware Variations**: Calibrate for your specific sensor setup
 
-## 🤝 Contributing
+##  Contributing
 
 This project is designed to be easily extensible:
 - Add new gestures in the configuration
@@ -301,7 +301,7 @@ This project is designed to be easily extensible:
 - Improve the hardware design
 - Add new data sources
 
-## 📄 License
+##  License
 
 This project is open source and available under the MIT License.
 
